@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+html {
+    font-size: 62.5%; /*10px*/
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.6rem;
+}
+
+.hero-shadow {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: rgba(0, 0 , 0, .5);
+    z-index: -1;
+}
+
+/*Navigation*/
+
+.navbar-brand {
+    font-size: 2.2rem;
+    font-weight:bold;
+}
+
+nav .navbar-nav, nav .fa-bars {
+    font-size:1.8rem;
+    text-transform: uppercase;
+}
+
+nav .fa-bars {
+    padding: 1rem 2rem;
+}
+
+/*Header*/
+
+header{
+    position:relative;
+    height: 60rem;
+    background-image: url("./images/fashion-1031469_1280.jpg");
+    background-size: cover;
+    z-index: 0;
+}
+
+header .btn {
+    font-size: 1.4rem;
+    text-transform:uppercase;
+    padding: 1rem 2rem;
+}
+
+.header-text {
+    font-size: 2.2rem;
+}
+
+/*Main*/
