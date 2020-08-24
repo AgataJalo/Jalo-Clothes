@@ -25,6 +25,14 @@ body {
 
 /*Navigation*/
 
+.navbar {
+    background-color: beige;
+}
+
+.navbar-nav {
+    font-weight: bold;
+}
+
 .navbar-brand {
     font-size: 2.2rem;
     font-weight:bold;
@@ -60,3 +68,7 @@ header .btn {
 }
 
 /*Main*/
+
+.about-box {
+    height: 20rem;
+}
