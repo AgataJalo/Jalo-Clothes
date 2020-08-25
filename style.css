@@ -54,6 +54,9 @@ nav .fa-bars {
     padding: 1rem 2rem;
 }
 
+.button-nav:focus {
+    outline: none;    
+}
 /*Header*/
 
 header {
@@ -75,3 +78,6 @@ header .btn {
 }
 
 /*Main*/
+
+/*Footer*/
+
