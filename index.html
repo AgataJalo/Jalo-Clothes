@@ -29,7 +29,7 @@
                 <div class="navbar-nav ml-auto">
                     <a class="nav-item nav-link" href="#home">Home</a>
                     <a class="nav-item nav-link" href="#about">O nas</a>
-                    <a class="nav-item nav-link" href="#team">Zespół</a>
+                    <a class="nav-item nav-link" href="#mission">Misja</a>
                     <a class="nav-item nav-link" href="#contact">Kontakt</a>
                 </div>
             </div>
@@ -47,7 +47,7 @@
  </header>
  <!--Main-->
  <main>
-     <section id="aboutus">
+     <section id="aboutus" class="scroll-fix">
          <div class="container py-5 about-boxes">
              <div class="row text-center">
 
@@ -76,7 +76,7 @@
                      <div class="about-box m-3 p-4 p-lg-5 border">
                          <h3 class="text-dark">Pomóż planecie</h3>
                          <p class="about-icon text-dark"><i class="fas fa-hand-holding-heart"></i></p>
-                         <p class="text-dark">Oddaj zniszczone ubrania organizacją zajmującym się recyclingiem i pomóż naszej planecie.</p>
+                         <p class="text-dark">Oddaj zniszczone ubrania organizacjom zajmującym się recyclingiem i pomóż naszej planecie.</p>
                      </div>
                  </div>
 
@@ -84,14 +84,99 @@
          </div>
      </section>
  </main>
+ <!--Mission-->
+<section id="mission" class="scroll-fix">
+    <div class="container text-center">
+        <p class="display-3">Misja</p>
+        <p>Naszą misją jest ustalenie nowych zasad zarządzania swoimi ubraniami przez miłośników mody.<br> Dwa główne filary, na których stoi nasza firma to ekologia i minimalizm. </p>
+        <hr class="w-50 mx-auto mt-4 mb-5">
+        <p class="my-5"></p>
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col mb-4">
+              <div class="card">
+                <img src="./images/nature.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ekologia</h5>
+                  <p class="card-text">"Większość szybkiej mody ląduje na śmietnikach, gdzie produkuje metan i przyczynia się do kryzysu klimatycznego. W Wielkiej Brytanii wyliczono, że tylko 13 proc. ścinków i niechcianych ubrań idzie do odzysku – kolejne 13 proc. do spalarni, a pozostałe 74 proc. na wysypiska. Co gorsza, tych tekstylnych odpadów będzie w skali świata najprawdopodobniej coraz więcej. Z raportu przygotowanego przez Boston Consulting Group i duńską organizację Global Fashion Agenda wynika, iż w porównaniu z 2015 r. w 2030 r. ilość takich śmieci wzrośnie o 60 proc."</p>
+                  <footer class="blockquote-footer">Marta Zaraska <cite title="Source Title"><a href="https://www.polityka.pl/tygodnikpolityka/nauka/1922884,1,moda-niszczy-ziemie.read">Polityka</a></cite></footer>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="./images/door.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Minimalizm</h5>
+                  <p class="card-text">"Szafa minimalistyczna, zwana także kapsułową opiera się na ubraniach, które pasują do siebie nawzajem, co pozwala na szybkie dobranie stylizacji na każdą okazję. Odzież w takiej szafie powinna być jak najbardziej użytkowa – z założenia chcemy wykorzystywać możliwie wszystkie ubrania, co wiąże się z tym, że musimy je lubić. Oznacza to, że jeśli nie przekonuje nas dany ciuch, nie ma sensu umieszczać go w minimalistycznej szafie. Minimalizm ubraniowy definiuje więc zasada ,,mniej znaczy więcej" – na bazie kilkunastu dobrze dobranych ubrań można stworzyć więcej stylizacji, niż na bazie kilku szuflad wypełnionych nielubianymi ubraniami, które kiedyś może się przydadzą.</p>
+                  <footer class="blockquote-footer">Redakcja <cite title="Source Title"><a href="https://www.glamour.pl/artykul/minimalizm-w-szafie-jak-go-wprowadzic-oto-lista-ubran-do-oddania-200526085600">Glamour</a></cite></footer>
+                </div>
+              </div>
+            </div>
+    </div>
+</section>
+<!--Contact-->
+<section id="contact" class="scroll-fix">
+    <div class="container text-center py-5">
+        <p class="display-4 mb-lg-5">Dowiedz się więcej! Napisz do nas.</p>
 
- <!--Carousel-->
-
- 
+        <div class="row">
+            <div class="my-5 m-lg-0 col-lg-3 contant-info border-lg-1">
+                <h3>Adres</h3>
+                <p>Jalo Clothes</p>
+                <p>ul.Ładna 3</p>
+                <p>00-000 Warszawa</p>
+                <hr class="w-50 w-lg-75 mx-auto">
+                <p><i class="fas fa-mobile-alt"></i> +48 111-222-333</p>
+            </div>
+                <div class="col-lg-9">
+                    <form>
+                    <div class="input-group input-group-lg mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <i class="fas fa-user"></i>
+                            </span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Imię i nazwisko">
+                    </div>
+                    <div class="input-group input-group-lg mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <i class="fas fa-at"></i>
+                            </span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="E-mail">
+                    </div>
+                    <div class="input-group input-group-lg mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <i class="fas fa-comment-alt"></i>
+                            </span>
+                        </div>
+                        <textarea rows="6" class="form-control" placeholder="Wpisz wiadomość"></textarea>
+                    </div>
+                <input type="submit" value="Wyślij" class="btn btn-light px-4 py-2 submit-btn">
+                </form>
+                </div>
+            </div>
+        </div>
+</section>
+<!--Footer-->
+<footer class="border-top">
+    <p class="text-center py-4 m-0">&copy;2020 Agata Jalowska</p>
+</footer> 
 
 
 <!---->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script>
+    $(document).click(function (event) {
+            var clickover = $(event.target);
+            var _opened = $(".navbar-collapse").hasClass("show");
+            if (_opened === true && !clickover.hasClass("navbar-toggler")) {
+                $(".navbar-toggler").click();
+            }
+        });
+</script>
 </body>
